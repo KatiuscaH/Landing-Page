@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Katiusca Herrera Franco</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <script src="jquery.js"></script>
+  <script src="jquery.knob.js"></script>
+</head>
+
+<body>
+    <section class="b1">
+        <div class="in1">
+            <div class="content">
+                <h1>Katiusca Herrera Franco</h1>
+                <a class="btn" href="#">Get started</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-me">
+        <div class="datos">
+            <div class="titulo">
+                <h1>About Me</h1>
+                <img id="avatar" src="girl.png">
+            </div>
+
+            <h2>Full name</h2>
+            <p>Katiusca Herrera Franco</p>
+
+            <h2>Web</h2>
+            <p>haaru.wesped.com</p>
+
+            <h2>E-mail</h2>
+            <p>katiusca.herrera@gmail.com</p>
+            <br>
+            <br>
+
+        </div>
+        <div class="bio">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut lorem neque. Quisque mollis at turpis ac rhoncus. Nunc
+                nulla lacus, convallis sit amet lorem vel, imperdiet imperdiet leo. Curabitur eu eleifend justo. Ut feugiat
+                pharetra augue eget convallis. In mollis, quam ut luctus sodales, urna odio egestas magna, et finibus turpis
+                nisi et nulla. Donec non neque arcu.
+            </p>
+        </div>
+    </section>
+
+    <section class"lineatiempo">
+       <div class="experiencia">
+        <h2>Education - Experience</h2>
+      <ul class="timeline">
+        <li>
+            <div class="item">
+                <span>1</span>
+                <div class="content">
+                    <h3>2005 - 2012</h3>
+                    <p>High School Diploma</p>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="item">
+                <span>2</span>
+                <div class="content">
+                    <h3>2013 - 2018</h3>
+                    <p>Studying at University</p>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="item">
+                <span>3</span>
+                <div class="content">
+                    <h3>2018 - Actual(?</h3>
+                    <p>Working</p>
+                </div>
+            </div>
+        </li>
+
+
+      </ul>
+    </div>
+    </section>
+
+    <div class="container">
+            <h1>Skills</h1>
+            
+            <input type="text" value="20" class="dial" data-width="300"> 
+            <h4>Programación</h4>
+            <input type="text" value="40" class="dial" data-width="300"> 
+            <h4>Programación</h4>
+            <input type="text" value="80" class="dial" data-width="300">
+            <h4>Programación</h4>
+            
+            <!-- <input type="text" value="55" class="dial" data-width="200" data-thickness=".32" data-fgColor="#008BE8" data-bgColor="#EEEEEE" data-cursor=false data-displayInput="true" data-readOnly=true > -->
+          </div>
+          <script>
+                $(document).ready(function() {
+                  //$(".dial").knob();
+                  $('.dial').knob({
+                    'min':0,
+                    'max':100,
+                    'width':150,
+                    'height':150,
+                    'displayInput':true,
+                    'fgColor':"#e74c3c",
+                    'readOnly': true
+                   });
+                });
+              </script>
+
+
+
+</body>
+
+</html>
